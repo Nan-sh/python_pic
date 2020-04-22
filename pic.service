@@ -1,0 +1,8 @@
+[Unit]
+After=dhcpcd.service
+
+[Service]
+ExecStart=/opt/python_pic/pic.sh
+
+[Install]
+WantedBy=default.target
