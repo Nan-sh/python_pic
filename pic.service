@@ -1,8 +1,10 @@
 [Unit]
-After=dhcpcd.service
+Description = pic daemon
 
 [Service]
-ExecStart=/opt/python_pic/run.sh
+ExecStart = /opt/python_pic/run.sh
+Restart = always
+Type = simple
 
 [Install]
-WantedBy=default.target
+WantedBy = multi-user.target
