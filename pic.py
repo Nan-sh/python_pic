@@ -5,7 +5,7 @@ import random
 from bs4 import BeautifulSoup
 ##网址
 url_base = "https://www.enterdesk.com/zhuomianbizhi/fengjing/"
-t = random.randint(1,99)
+t = random.randint(1,150)
 url_t_1 = str(t)
 url_t_2 = ".html"
 url = url_base + url_t_1 + url_t_2
