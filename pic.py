@@ -36,6 +36,7 @@ try:
             except:
                 print("爬取错误")
                 exit()
+    exit()
                 
 except:
     print("爬取错误")
