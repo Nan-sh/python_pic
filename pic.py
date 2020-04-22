@@ -41,6 +41,7 @@ try:
             except:
                 print("爬取错误")
                 exit()
+    del dd
     exit()
                 
 except:
