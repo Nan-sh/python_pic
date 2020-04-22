@@ -1,9 +1,14 @@
 import requests
 import os
 import time
+import random
 from bs4 import BeautifulSoup
 ##网址
-url = "https://www.enterdesk.com/zhuomianbizhi/fengjing/"
+url_base = "https://www.enterdesk.com/zhuomianbizhi/fengjing/"
+t = random.randint(1,99)
+url_t_1 = str(t)
+url_t_2 = ".html"
+url = url_base + url_t_1 + url_t_2
 try:
     r = requests.get(url)
     r.raise_for_status()
