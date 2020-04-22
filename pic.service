@@ -2,7 +2,7 @@
 After=dhcpcd.service
 
 [Service]
-ExecStart=/opt/python_pic/pic.sh
+ExecStart=/opt/python_pic/run.sh
 
 [Install]
 WantedBy=default.target
