@@ -5,9 +5,13 @@
 
 使用教程：
 1, git clone https://github.com/Nan-sh/python_pic.git
+
 2, cd python_pic/
+
 3, sudo chmod a+x auto_start.sh
+
 4, sudo ./auto_start.sh
+
 5, 打开桌面壁纸设置为幻灯片，时间设置为9分钟，幻灯片文件为/opt/python_pic/python_jpg/1和/opt/python_pic/python_jpg/2
 即可实现自动下载图片并设置为壁纸，九分钟更新一次
 
