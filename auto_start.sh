@@ -9,6 +9,7 @@ sudo pip install beautifulsoup4
 sudo chmod a+x run.sh
 sudo chmod a+x wallpaper.sh
 sudo chmod 777 pic.service
+sudo sh -c 'echo  "screen -dm bash -c \"/opt/python_pic/wallpaper.sh\"" >> /etc/profile'
 sudo cp pic.service /etc/systemd/system
 systemctl daemon-reload
 systemctl start pic.service
