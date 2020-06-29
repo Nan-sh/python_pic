@@ -7,7 +7,7 @@ sudo cp wallpaper.sh /opt/python_pic
 sudo pip install requests
 sudo pip install beautifulsoup4
 sudo chmod a+x run.sh
-chmod a+x wallpaper.sh
+sudo chmod a+x wallpaper.sh
 sudo chmod 777 pic.service
 sudo cp pic.service /etc/systemd/system
 systemctl daemon-reload
