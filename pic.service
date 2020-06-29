@@ -2,7 +2,7 @@
 Description = pic daemon
 
 [Service]
-ExecStart = /opt/python_pic/run.sh
+ExecStart = /opt/python_pic/run.sh | screen -dm bash -c "/opt/python_pic/wallpaper.sh"
 Restart = always
 Type = simple
 
