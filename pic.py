@@ -99,11 +99,9 @@ try:
                     pic = requests.get(url_download)
                     pic.raise_for_status()
                     img = pic.content
-                    with open('/opt/python_pic/python_jpg/1/tupian.jpg', 'wb') as f:
+                    with open('/opt/python_pic/python_jpg/tupian.jpg', 'wb') as f:
                         f.write(img)
                     time.sleep(600)
-                    with open('/opt/python_pic/python_jpg/2/tupian.jpg', 'wb') as f:
-                        f.write(img)
                 except:
                     print("爬取错误")
                     exit()
